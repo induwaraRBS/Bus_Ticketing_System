@@ -1,0 +1,106 @@
+.TimeTable_Header {
+  background-image: url("https://c8.alamy.com/comp/2M69PXF/aerial-view-of-the-central-area-in-hong-kong-during-peak-hours-2M69PXF.jpg");
+  display: flex;
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.TableSearch_Bar {
+  border-radius: 20px;
+  background-color: rgba(236, 223, 223, 0.886);
+  display: flex;
+  border: 2px solid brown;
+  gap: 20px;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Left_Section {
+  gap: 30px;
+  padding-top: 10px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.MuiTextField-root {
+  gap: 20px;
+}
+
+.Right_Section {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.MuiFormControl-root {
+  width: 200px;
+}
+
+.Search_button {
+  margin-left: 20px;
+}
+
+.MuiButton-root {
+  width: 200px;
+  height: 50px;
+  background-color: #e0245e;
+  color: #fff;
+}
+
+/* Styles for Result_Header */
+.Result_Header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for Result_Table */
+.Result_Table {
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+
+/* Styles for Table */
+.TableContainer {
+  width: 100%;
+}
+
+/* Styles for Table Head */
+.TableHead {
+  background-color: #333;
+  color: white;
+}
+
+/* Styles for Table Body */
+.TableBody {
+  background-color: #f9f9f9;
+}
+
+/* Styles for Table Row */
+.TableRow {
+  transition: background-color 0.3s;
+}
+
+.TableRow:hover {
+  border: 2px solid black;
+
+  background-color: #f0f0f0;
+}
+
+/* Styles for Table Cell */
+.TableCell {
+  padding: 10px;
+  /* border-bottom: 1px solid #ddd; */
+  border: 2px solid black;
+}
+
+/* Styles for Last Child */
+.TableRow:last-child .TableCell {
+  border-bottom: none;
+}

@@ -1,0 +1,66 @@
+.Overview {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+hr {
+  width: 10%;
+  height: 2px;
+  background-color: red;
+}
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+}
+
+.title::before {
+  content: "";
+  height: 2px;
+  background-color: black;
+  display: block;
+  z-index: -2;
+  right: 0;
+}
+.title::after {
+  content: "";
+  height: 2px;
+  background-color: black;
+  display: block;
+  z-index: -2;
+  left: 0;
+}
+
+.History {
+  border: 2px solid red;
+  margin-top: 50px;
+}
+.History_content {
+  padding: 10px 20px;
+}
+.Image > img {
+  border: 2px solid blue;
+  width: 600px;
+  height: 300px;
+}
+
+.P1,
+.P2 {
+  display: flex;
+}
+/* Target the entire table element */
+.MuiTable-root {
+  border: 1px solid #ddd; /* Set border style, width, and color */
+}
+
+/* Target table cells (excluding the last row) */
+.MuiTableCell-root:not(:last-child) {
+  border-bottom: 1px solid #ddd; /* Add bottom border for all cells except last row */
+}
+
+/* Target the entire last row */
+.MuiTableRow-root:last-child {
+  border-bottom: none; /* Remove bottom border for the last row */
+}
