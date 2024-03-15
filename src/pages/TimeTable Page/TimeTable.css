@@ -53,36 +53,30 @@
   color: #fff;
 }
 
-/* Styles for Result_Header */
 .Result_Header {
   background-color: #f0f0f0;
   padding: 10px;
   text-align: center;
 }
 
-/* Styles for Result_Table */
 .Result_Table {
   padding: 20px 20px;
   margin-top: 20px;
 }
 
-/* Styles for Table */
 .TableContainer {
   width: 100%;
 }
 
-/* Styles for Table Head */
 .TableHead {
   background-color: #333;
   color: white;
 }
 
-/* Styles for Table Body */
 .TableBody {
   background-color: #f9f9f9;
 }
 
-/* Styles for Table Row */
 .TableRow {
   transition: background-color 0.3s;
 }
@@ -93,14 +87,11 @@
   background-color: #f0f0f0;
 }
 
-/* Styles for Table Cell */
 .TableCell {
   padding: 10px;
-  /* border-bottom: 1px solid #ddd; */
   border: 2px solid black;
 }
 
-/* Styles for Last Child */
 .TableRow:last-child .TableCell {
   border-bottom: none;
 }
