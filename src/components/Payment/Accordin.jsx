@@ -18,33 +18,19 @@ const Accordin = () => {
 		setPaymentType(e.target.value);
 	};
   return (
-    <div>
+    <div style={{color:"red"}}>
 			<Accordion expanded={current === 0} onChange={changeState(0)}>
-				<AccordionSummary expandIcon={<Radio value='card' checked={paymentType === 'card'} onChange={handleType} />}>
-					<Typography>
-						<strong>Credit Card</strong> <img src='https://shop.flixbus.co.uk/img/gate/credit_card_jcb.svg'></img>
+				<AccordionSummary expandIcon={<Radio value='card' checked={paymentType === 'card'} onChange={handleType} sx={{backgroundColor: '#f0f0f0',
+                        borderBottom: '1px solid #ddd',}}/>}>
+					<Typography sx={{ fontWeight: 'bold' }}>
+						<strong>Credit Card</strong> <img src='https://shop.flixbus.co.uk/img/gate/credit_card_jcb.svg'sx={{ width: '30px', height: 'auto', marginLeft: '10px' }}></img>
 					</Typography>
 				</AccordionSummary>
-				<AccordionDetails>
+				<AccordionDetails sx={{ padding: '20px' }}>
 					<Typography>
 						<CardPayment />
 					</Typography>
 				</AccordionDetails>
-			</Accordion>
-			<Accordion expanded={current === 1} onChange={changeState(1)}>
-				<AccordionSummary expandIcon={<Radio value='googlepay' checked={paymentType === 'googlepay'} onChange={handleType} />}>
-					<Typography>
-						<strong>Google pay</strong> <img src='https://shop.flixbus.co.uk/img/gate/google-pay.svg' style={{ width: '70px', height: '40px' }}></img>
-					</Typography>
-				</AccordionSummary>
-			</Accordion>
-			<Accordion expanded={current === 2} onChange={changeState(2)}>
-				<AccordionSummary expandIcon={<Radio value='paypal' checked={paymentType === 'paypal'} onChange={handleType} />}>
-					<Typography>
-						<strong>PayPal</strong>
-						<img src='https://shop.flixbus.co.uk/img/gate/paypal.svg' style={{ width: '70px', height: '40px', marginLeft: '5px' }}></img>
-					</Typography>
-				</AccordionSummary>
 			</Accordion>
 		</div>
   )

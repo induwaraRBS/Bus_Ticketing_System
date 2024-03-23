@@ -23,7 +23,7 @@ const SeatBar = ({open,setOpen}) => {
         <h2>Seat Reservation</h2>
     </Row>
     <Row style={{ textAlign: 'center' }}>
-        <p>Berlin-Munich</p>
+        <p>Colombo-Badulla</p>
     </Row>
     <Row>
         <SeatPicker />
