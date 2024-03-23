@@ -1,0 +1,94 @@
+.Result_Header {
+  display: flex;
+  padding: 0 50px;
+  gap: 5px;
+  border: 2px solid red;
+}
+.Results {
+  margin-top: 10px;
+}
+.Results > h4 {
+  padding-left: 100px;
+}
+.Result_Route {
+  border-radius: 5px;
+  width: 300px;
+  border: 2px solid blue;
+  margin-bottom: -10px;
+  height: 40px;
+  background-color: aqua;
+}
+.Result_Content {
+  width: 100%;
+}
+.Results_Cards {
+  border: 2px solid blue;
+  margin-top: 10px;
+}
+.Details {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.Labels {
+  color: blue;
+  font-size: 15px;
+  font-weight: 800;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  width: 300px;
+}
+
+.Details_Section1 {
+  display: grid;
+  width: 150px;
+}
+.Details_Section2 {
+  display: grid;
+  width: 150px;
+}
+.Details_Section3 {
+  display: grid;
+  width: 170px;
+  margin-left: 0px;
+}
+.Details_Section4 {
+  display: grid;
+  width: 170px;
+}
+
+.Details_Section5 {
+  display: grid;
+  margin-top: 30px;
+}
+.Detail_results {
+  height: fit-content;
+  margin-top: -8px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.Details_Section_Middle {
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.Tag {
+  color: blue;
+  font-size: 20px;
+}
+.Tag_results {
+  font-size: 20px;
+  font-weight: 900;
+}
+.IMG {
+  height: fit-content;
+  margin-top: 30px;
+}
+.IMG > img {
+  width: 200px;
+}

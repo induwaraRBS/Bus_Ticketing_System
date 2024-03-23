@@ -96,6 +96,9 @@ const TImeTable = () => {
       busType,
     };
     performSearch(searchParams)
+    
+    //Table only can see after filling input fields 
+
       // .then((results) => {
       //   // Update the state with the search results
       //   setSearchResults(results);
@@ -199,10 +202,9 @@ const TImeTable = () => {
       </div>
       {showTable && (
         <div className="TimeTable_Section1">
-          <div className="Result_Header">
-            <h1>Search Results Bus Table</h1>
-            <hr />
-          </div>
+            <h1 className="title">Search Results Bus Table</h1>
+            
+          <hr />
           <div className="Result_Table">
             <TableContainer component={Paper}>
               <Table

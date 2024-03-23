@@ -73,7 +73,7 @@ const AboutUs = () => {
       </div>
       <div className="History">
         <h1 className="title">Our History</h1>
-        <hr />
+    
         <div className="History_content">
           <div className="P1">
             <p>

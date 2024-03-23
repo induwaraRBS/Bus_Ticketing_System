@@ -7,6 +7,8 @@ import OnlineBooking from "./pages/OnlineBooking Page/OnlineBooking";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TImeTable from "./pages/TimeTable Page/TImeTable";
 import Login from "./pages/Login Page/Login";
+import SearchResult from "./pages/SearchResult Page/SearchResult";
+import SeatBook from "./pages/SeatBook Page/SeatBook";
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,8 @@ function App() {
           <Route path="/OnlineBooking" element={<OnlineBooking />} />
           <Route path="/TimeTable" element={<TImeTable />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/Result" element={<SearchResult />} />
+          <Route path="/SeatBooking" element={<SeatBook />} />
         </Routes>
       </Router>
     </div>

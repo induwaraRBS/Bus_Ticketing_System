@@ -37,6 +37,9 @@ const OnlineBooking = () => {
   const handleNavigate = ()=>{
     navigate("/TimeTable");
   }
+  const handleSearch = () =>{
+    navigate("/Result")
+  }
   return (
     <div className="Booking_page">
       <div className="Nav_Bar">
@@ -83,6 +86,7 @@ const OnlineBooking = () => {
                 variant="contained"
                 color="error"
                 sx={{ width: "200px", height: "60px" }}
+                onClick={handleSearch}
               >
                 Search
               </Button>

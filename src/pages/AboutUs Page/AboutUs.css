@@ -1,5 +1,4 @@
 .Overview {
-  /* border: 2px solid red; */
   width: 80%;
   margin: 0 auto;
 }
@@ -34,7 +33,7 @@ hr {
 }
 
 .History {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 50px;
 }
 .History_content {
@@ -50,17 +49,14 @@ hr {
 .P2 {
   display: flex;
 }
-/* Target the entire table element */
 .MuiTable-root {
-  border: 1px solid #ddd; /* Set border style, width, and color */
+  border: 1px solid #ddd;
 }
 
-/* Target table cells (excluding the last row) */
 .MuiTableCell-root:not(:last-child) {
-  border-bottom: 1px solid #ddd; /* Add bottom border for all cells except last row */
+  border-bottom: 1px solid #ddd;
 }
 
-/* Target the entire last row */
 .MuiTableRow-root:last-child {
-  border-bottom: none; /* Remove bottom border for the last row */
+  border-bottom: none;
 }

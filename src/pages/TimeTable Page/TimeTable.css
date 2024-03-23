@@ -18,12 +18,10 @@
   width: 95%;
   margin: 0 auto;
   justify-content: center;
-  padding: 10px;
 }
 
 .Left_Section {
   gap: 30px;
-  padding-top: 10px;
   display: flex;
   margin-right: 20px;
 }
@@ -33,9 +31,12 @@
 }
 
 .Right_Section {
+  width: fit-content;
+  height: fit-content;
   gap: 30px;
   display: flex;
   align-items: center;
+  margin-top: 49px;
 }
 
 .MuiFormControl-root {
@@ -83,7 +84,6 @@
 
 .TableRow:hover {
   border: 2px solid black;
-
   background-color: #f0f0f0;
 }
 
@@ -94,4 +94,28 @@
 
 .TableRow:last-child .TableCell {
   border-bottom: none;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+}
+
+.title::before {
+  content: "";
+  height: 2px;
+  background-color: black;
+  display: block;
+  z-index: -2;
+  right: 0;
+}
+.title::after {
+  content: "";
+  height: 2px;
+  background-color: black;
+  display: block;
+  z-index: -2;
+  left: 0;
 }
